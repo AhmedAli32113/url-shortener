@@ -1,0 +1,178 @@
+@import "./contact.css";
+@import "./footer.css";
+@import "./index/index.css";
+@import "./detail/detail.css";
+
+
+/*import google fonts*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    min-width: fit-content;
+    overflow-x: hidden;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+
+
+h1,h2,h3,h4,h5,h6,button{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.navbar{
+    position:absolute;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0;
+    z-index: 200;
+    top:20px;
+    left: 10rem;
+    right: 10rem;
+}
+
+.Active{
+    /*border-bottom:  #ffaa00 5px solid !important;*/
+    color: #ffaa00 !important ;
+    text-shadow: 0 0 0.17em #ffaa00 ;
+    font-size: 1.2em;
+    transition: all ease-in-out .2s
+}
+
+.navbar-custom {
+    background-color: #281923;
+}
+
+#total-display-cart{
+    color: #059800;
+}
+
+.table td {
+    text-align: center;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    position: fixed;
+}
+
+nav{
+    margin-bottom: 5rem;
+}
+
+nav img{
+    max-width: 7rem;
+    margin-right: auto;
+    left: 0;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a{
+    padding: 15px 15px;
+    background-color: #281923;
+    font-weight: bold;
+    color: #dedede;
+    text-decoration: none;
+    transition: all ease-in-out .2s
+
+}
+
+.nav-links a:hover{
+    color: #ffaa00 !important ;
+    text-shadow: 0 0 0.17em #ffaa00 ;
+    opacity: 100% !important;
+    transition: all ease-in-out .2s
+}
+
+.nav-links .red-link a{
+    background-color: #A80E0E;
+    opacity: 100%;
+    border: none;
+    color: white;
+}
+
+.nav-links .red-link a:hover{
+    background-color: #8a0a0a;
+    opacity: 100%;
+    border: none;
+    color: white;
+}
+
+
+section .title {
+    color:#A80E0E;
+    text-align: center;
+}
+
+#cart-display{
+    background-color: #ffaa00;
+    color: #8a0a0a;
+    width: 1.5rem;
+    text-align: center;
+    display:inline-block;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+
+
+section{
+    margin-top: 10rem;
+}
+
+.icon{
+    width:55px !important;
+    height:55px !important;
+    margin-right: 10px;
+}
+
+@media all and (max-width: 990px) {
+    .navbar {
+        background-color: #281923;
+        opacity: 60%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right:0;
+        }
+
+
+
+  }

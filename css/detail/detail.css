@@ -1,0 +1,149 @@
+/* table, th, td {
+    border: 1px solid #DDD;
+    border-collapse: collapse;
+    height: 33px;
+
+} */
+.detail-nav{
+    background-color: #281923;
+    opacity: 61%;
+}
+.img{
+    margin: 2rem 2rem 2rem 0;
+    max-height: 25rem;
+    box-shadow: 0 10px 15px -2px rgba(0, 0, 0, 0.15);
+
+}
+
+
+/* meal info section */
+#meal-info{
+    margin-top:10rem;
+}
+
+
+.flex{
+    display:flex;
+}
+
+
+.flex div {
+    width:100%;
+}
+
+.flex div >*{
+    margin-top:1.5rem;
+}
+
+.quantity-buttons >*{
+    width: 3rem;
+    background-color: transparent;
+    border: #ffaa00 2px solid;
+    color:#8a0a0a;
+    padding:7px 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.yellow-button{
+    background-color: #ffaa00;
+    padding: 2px 30px;
+    height: 2rem;
+    align-self: flex-end;
+    border-radius: 25px;
+    border: none;
+}
+
+.yellow-button:focus{
+    outline: none;
+}
+
+
+.quantity-buttons >*:hover,.yellow-button:hover{
+    cursor: pointer;
+    background-color: #FFDD00 ;
+}
+
+tr:hover {
+    background-color: #DDD;
+}
+.row-coloring{
+    background-color: #f2f2f2;
+}
+
+
+#Description,#Description>*{
+    margin-top: 2rem;
+    text-align: left;
+}
+
+
+/*review section*/
+
+
+#review form {
+    display: flex;
+    flex-direction: column;
+}
+
+#review form > div {
+    margin-top: 1.5rem;
+}
+#review form input,#review textarea  {
+    display: block;
+}
+
+#review input[type="submit"]{
+    color: white;
+}
+
+#review input[type="text"],#review textarea{
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 0.5rem;
+    background-color: #f2f2f2;
+}
+
+#review form input[type="text"]:focus,#review form textarea:focus{
+   outline: none;
+   background-color: white;
+    border: 2px solid black;
+
+}
+ #formWrapper{
+    overflow-x: hidden;
+}
+#form{
+    position: relative;
+    left: 1100px ;
+}
+
+.hide{
+    display: none !important ;
+}
+
+
+#msgForEmptyForm{
+    margin-top: 2rem;
+    color: red;
+}
+
+.my-tabs{
+    margin:  .5rem;
+    padding: 0 35px;
+    border-radius: 10px;
+}
+ .tab a{
+    text-decoration: none;
+}
+ul .active{
+    background-color: #ffaa00;
+    border-radius: 10px;
+}
+
+#desc,#menu1{
+    background-color: transparent !important;
+}

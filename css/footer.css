@@ -1,0 +1,46 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 2rem;
+}
+
+.about {
+    max-width: 100%;
+}
+
+.footer-links {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 20px;
+    display: inline-block;
+    transition: 0.5s;
+    transform: scale(1);
+    border-bottom: 1px solid #A80E0E;
+
+}
+
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: .25rem;
+}
+
+footer .title {
+    color:#A80E0E;
+}
+
+.grid-gallery img {
+    width:100%;
+}
+
+
+
+
