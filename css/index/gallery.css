@@ -1,7 +1,6 @@
 
 .card {
     border-radius: 10px;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
     min-width: 304px;
     margin: 20px 0.5rem;
 }
@@ -29,20 +28,6 @@
 .card-img-top {
     height: 220px;
 }
-
-.card {
-    border: none;
-    transition: all ease 0.5s;
-
-}
-
-.card:hover {
-    box-shadow: 1px 10px 29px 0 rgba(53, 50, 50, 0.67);
-    transition: all ease 0.5s;
-    transform: scale(1.05);
-    z-index: 2;
-}
-
 
 .meal-order p {
     display: inline;

@@ -49,13 +49,7 @@ nav{
     right: 10rem;
 }
 
-.Active{
-    /*border-bottom:  #ffaa00 5px solid !important;*/
-    color: #ffaa00 !important ;
-    text-shadow: 0 0 0.17em #ffaa00 ;
-    font-size: 1.2em;
-    transition: all ease-in-out .2s
-}
+
 
 .navbar-custom {
     background-color: #281923;
@@ -104,12 +98,7 @@ nav img{
 
 }
 
-.nav-links a:hover{
-    color: #ffaa00 !important ;
-    text-shadow: 0 0 0.17em #ffaa00 ;
-    opacity: 100% !important;
-    transition: all ease-in-out .2s
-}
+
 
 .nav-links .red-link a{
     background-color: #A80E0E;
