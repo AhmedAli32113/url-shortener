@@ -1,5 +1,5 @@
 <?php
-// get cookie cart
+// get cookie carti
 $cart = isset($_COOKIE["cart"]) ? $_COOKIE["cart"] : "[]";
 $cart = json_decode($cart);
 require_once './php/Meal.php';

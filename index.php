@@ -127,7 +127,7 @@ include './include/inc.header.php'
 
     <Section id="Gallery">
         <h2 class="title">Our most popular recipes</h2>
-        <p class="text-center">Try out most delicious food and usually take minutes to deliver</p>
+        <p class="text-center">Try  out most delicious food and usually take minutes to deliver</p>
 
 
 

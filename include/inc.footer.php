@@ -1,7 +1,6 @@
 
 <Section id="Contact">
-
-
+    
     <div class="info">
 
         <div class="info-item">

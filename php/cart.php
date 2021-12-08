@@ -25,7 +25,7 @@ if (!$isDuplicate){
 
 setcookie('cart', json_encode($cart), time() + (86400 * 30), "/"); // 86400 = 1 day
 
-// redirect to previous page
+// rcedirect to previous page
 
 header('Location: ' . $back);
 

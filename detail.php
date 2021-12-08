@@ -50,7 +50,7 @@ $meal = $Meal->getMealById($id);
         </div>
 
 
-        <!-- <div class="container  align-items-start"></div> -->
+        <!-- <div class="container  align-items-fstart"></div> -->
 
         <ul class="nav nav-tabs d-flex justify-content-start ">
             <li class="active tab "><a data-toggle="tab" href="#desc"><h2 class="title   my-tabs">Description</h2></a>

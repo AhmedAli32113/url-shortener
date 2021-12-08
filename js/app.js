@@ -1,4 +1,4 @@
-// ____________Cart functionality___________________
+// ____________Cart functionality____________________
 
 let cartCount = 0 // initialize cart with 0
 let cartTotal = 0
